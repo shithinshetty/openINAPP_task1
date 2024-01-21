@@ -16,7 +16,7 @@ const Sidebar = () => {
       className="h-[96vh] fixed rounded-[30px] p-[1%] bg-black text-white w-[280px]"
       style={styles}
     >
-      <h1 className="mt-5 text-4xl ml-5 font-bold font-extrabold">Board.</h1>
+      <h1 className="mt-5 text-4xl ml-5 font-extrabold">Board.</h1>
       <div className="mt-12 ml-5 font-Montserrat">
         <div className="flex items-center my-10 mx-0 cursor-pointer transition duration-500">
           <Image
@@ -36,7 +36,9 @@ const Sidebar = () => {
             className="mr-4"
             alt="transaction"
           />
-          <p className="text-white text-lg font-montserrat font-thin break-words">Transactions</p>
+          <p className="text-white text-lg font-montserrat font-thin break-words">
+            Transactions
+          </p>
         </div>
         <div className="flex items-center my-10 mx-0 cursor-pointer  transition duration-500">
           <Image
@@ -71,9 +73,7 @@ const Sidebar = () => {
       </div>
       <div className="absolute bottom-9 ml-5 text-sm">
         <p className="my-3 cursor-pointer  transition">Help</p>
-        <p className="my-3 cursor-pointer  transition">
-          Contact
-        </p>
+        <p className="my-3 cursor-pointer  transition">Contact</p>
       </div>
     </div>
   );

@@ -5,6 +5,8 @@ import { redirect } from "next/navigation";
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
+import Card from "@/components/Card";
+import BarChart from "@/components/BarChart";
 
 const Dashboard = () => {
   const session = useSession();
@@ -25,6 +27,8 @@ const Dashboard = () => {
       </div>
       <div id="dashboardRight" className="ml-13   flex-[3]">
         <Navbar />
+        <Card />
+        <BarChart />
       </div>
     </div>
   );
