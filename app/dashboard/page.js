@@ -3,7 +3,7 @@
 import { useSession } from "next-auth/react";
 import { redirect } from "next/navigation";
 import { useEffect } from "react";
-
+import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 
 const Dashboard = () => {
@@ -22,6 +22,9 @@ const Dashboard = () => {
     >
       <div id="dashboardLeft" className="w-[300px]">
         <Sidebar />
+      </div>
+      <div id="dashboardRight" className="ml-13   flex-[3]">
+        <Navbar />
       </div>
     </div>
   );
