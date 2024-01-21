@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 import Card from "@/components/Card";
 import BarChart from "@/components/BarChart";
+import BottomCards from "@/components/BottomCards";
 
 const Dashboard = () => {
   const session = useSession();
@@ -29,6 +30,7 @@ const Dashboard = () => {
         <Navbar />
         <Card />
         <BarChart />
+        <BottomCards />
       </div>
     </div>
   );
